@@ -11,3 +11,7 @@ Now you can visit `localhost:4000` from your browser.
 ## Notes
 
 * If you choose to change the application's structure, you could manually start the router from your code like this `PhoenixCrud.Router.start`
+
+# Credits
+
+Huge thanks to Garrett Heinlen for his tutorial http://gogogarrett.sexy/programming-in-elixir-with-the-phoenix-framework-building-a-basic-CRUD-app/
