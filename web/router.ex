@@ -3,4 +3,5 @@ defmodule PhoenixCrud.Router do
 
   plug Plug.Static, at: "/static", from: :phoenix_crud
   get "/", PhoenixCrud.PageController, :index, as: :page
+  resources "users", PhoenixCrud.UserController
 end
