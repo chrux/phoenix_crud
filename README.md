@@ -4,6 +4,7 @@ To start your new Phoenix application you have to:
 
 1. Install dependencies with `mix deps.get`
 2. Start Phoenix router with `mix phoenix.start`
+3. Execute migrations with `mix ecto.migrate Repo`
 
 Now you can visit `localhost:4000` from your browser.
 
